@@ -24,3 +24,11 @@ li a:hover {
 .right {
   float: right;
 }
+
+.flex-container div {
+  display: flex;
+}
+
+header {
+  background-color: #1f2937;
+}
