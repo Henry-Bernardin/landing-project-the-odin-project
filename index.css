@@ -1,9 +1,25 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #1f2937;
 }
 
 li {
@@ -29,6 +45,35 @@ li a:hover {
   display: flex;
 }
 
-header {
-  background-color: #1f2937;
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary-text,
+.header-link-text {
+  font-size: 19px;
+  color: #e5e7eb;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.information-header-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900ß;
+}
+
+.quote-background {
+  background-color: #e5e7eb;
 }
