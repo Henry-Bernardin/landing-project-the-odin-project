@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -88,4 +94,9 @@ li a:hover {
 .bold-text {
   font-weight: 900;
   font-size: 24px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
 }
