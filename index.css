@@ -99,9 +99,26 @@ li a:hover {
   font-size: 24px;
 }
 
-.flex-container {
+.container-1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 4.5em 0em 2.5em 0em;
+}
+
+.flex-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 300px;
+  width: 300px;
+}
+
+.flex-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 300px;
+  width: 300px;
 }
 
 .footer-flex {
